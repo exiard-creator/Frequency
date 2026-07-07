@@ -1,0 +1,342 @@
+{
+  "metadata": {
+    "symbols": 5000,
+    "seed": 2026070603,
+    "snr_db": [
+      -12.0,
+      -10.0,
+      -8.0,
+      -6.0,
+      -4.0,
+      -2.0,
+      0.0,
+      2.0,
+      4.0,
+      6.0
+    ],
+    "cycle_slip_threshold_rad": 1.1,
+    "important_note": "Communication PLL/cycle-slip proof-of-concept stress model, not a standard-compliant modem simulator."
+  },
+  "results": [
+    {
+      "scheme": "second_order_pll",
+      "snr_db": -12.0,
+      "phase_rmse_rad": 0.5670954640967971,
+      "cycle_slip_probability": 0.251,
+      "resource_units_per_symbol": 1.0,
+      "note": "Simple carrier PLL reference with static loop gains; vulnerable to weak-signal cycle slips."
+    },
+    {
+      "scheme": "phase_trace_aided_pll",
+      "snr_db": -12.0,
+      "phase_rmse_rad": 0.5446514110882315,
+      "cycle_slip_probability": 0.1938,
+      "resource_units_per_symbol": 17.0,
+      "note": "Simple PLL augmented by a confidence-weighted phase-trace discriminator; PoC only, not an optimized loop design."
+    },
+    {
+      "scheme": "differential_phase",
+      "snr_db": -12.0,
+      "phase_rmse_rad": 0.6336865903579296,
+      "cycle_slip_probability": 0.6287257451490298,
+      "resource_units_per_symbol": 2.0,
+      "note": "Noncoherent adjacent-symbol phase reference; avoids absolute phase lock but doubles independent noise."
+    },
+    {
+      "scheme": "phase_trace_fallback_rep3_top4",
+      "snr_db": -12.0,
+      "phase_rmse_rad": 0.6088352288508904,
+      "cycle_slip_probability": 0.5564,
+      "resource_units_per_symbol": 24.0,
+      "note": "Conservative mirror-pair phase trace aid; cancels common phase by conjugate product and vector combining."
+    },
+    {
+      "scheme": "second_order_pll",
+      "snr_db": -10.0,
+      "phase_rmse_rad": 0.5417806308422287,
+      "cycle_slip_probability": 0.216,
+      "resource_units_per_symbol": 1.0,
+      "note": "Simple carrier PLL reference with static loop gains; vulnerable to weak-signal cycle slips."
+    },
+    {
+      "scheme": "phase_trace_aided_pll",
+      "snr_db": -10.0,
+      "phase_rmse_rad": 0.44165138006531574,
+      "cycle_slip_probability": 0.0434,
+      "resource_units_per_symbol": 17.0,
+      "note": "Simple PLL augmented by a confidence-weighted phase-trace discriminator; PoC only, not an optimized loop design."
+    },
+    {
+      "scheme": "differential_phase",
+      "snr_db": -10.0,
+      "phase_rmse_rad": 0.6252084924192914,
+      "cycle_slip_probability": 0.6043208641728346,
+      "resource_units_per_symbol": 2.0,
+      "note": "Noncoherent adjacent-symbol phase reference; avoids absolute phase lock but doubles independent noise."
+    },
+    {
+      "scheme": "phase_trace_fallback_rep3_top4",
+      "snr_db": -10.0,
+      "phase_rmse_rad": 0.6077399580428154,
+      "cycle_slip_probability": 0.4654,
+      "resource_units_per_symbol": 24.0,
+      "note": "Conservative mirror-pair phase trace aid; cancels common phase by conjugate product and vector combining."
+    },
+    {
+      "scheme": "second_order_pll",
+      "snr_db": -8.0,
+      "phase_rmse_rad": 0.45865780504141,
+      "cycle_slip_probability": 0.0332,
+      "resource_units_per_symbol": 1.0,
+      "note": "Simple carrier PLL reference with static loop gains; vulnerable to weak-signal cycle slips."
+    },
+    {
+      "scheme": "phase_trace_aided_pll",
+      "snr_db": -8.0,
+      "phase_rmse_rad": 0.4106838826778556,
+      "cycle_slip_probability": 0.008,
+      "resource_units_per_symbol": 17.0,
+      "note": "Simple PLL augmented by a confidence-weighted phase-trace discriminator; PoC only, not an optimized loop design."
+    },
+    {
+      "scheme": "differential_phase",
+      "snr_db": -8.0,
+      "phase_rmse_rad": 0.6053551704326269,
+      "cycle_slip_probability": 0.5897179435887178,
+      "resource_units_per_symbol": 2.0,
+      "note": "Noncoherent adjacent-symbol phase reference; avoids absolute phase lock but doubles independent noise."
+    },
+    {
+      "scheme": "phase_trace_fallback_rep3_top4",
+      "snr_db": -8.0,
+      "phase_rmse_rad": 0.5986915010444989,
+      "cycle_slip_probability": 0.3722,
+      "resource_units_per_symbol": 24.0,
+      "note": "Conservative mirror-pair phase trace aid; cancels common phase by conjugate product and vector combining."
+    },
+    {
+      "scheme": "second_order_pll",
+      "snr_db": -6.0,
+      "phase_rmse_rad": 0.37761710830978423,
+      "cycle_slip_probability": 0.0202,
+      "resource_units_per_symbol": 1.0,
+      "note": "Simple carrier PLL reference with static loop gains; vulnerable to weak-signal cycle slips."
+    },
+    {
+      "scheme": "phase_trace_aided_pll",
+      "snr_db": -6.0,
+      "phase_rmse_rad": 0.3500779856728737,
+      "cycle_slip_probability": 0.0104,
+      "resource_units_per_symbol": 17.0,
+      "note": "Simple PLL augmented by a confidence-weighted phase-trace discriminator; PoC only, not an optimized loop design."
+    },
+    {
+      "scheme": "differential_phase",
+      "snr_db": -6.0,
+      "phase_rmse_rad": 0.6050163284705201,
+      "cycle_slip_probability": 0.5513102620524105,
+      "resource_units_per_symbol": 2.0,
+      "note": "Noncoherent adjacent-symbol phase reference; avoids absolute phase lock but doubles independent noise."
+    },
+    {
+      "scheme": "phase_trace_fallback_rep3_top4",
+      "snr_db": -6.0,
+      "phase_rmse_rad": 0.5570229580043866,
+      "cycle_slip_probability": 0.249,
+      "resource_units_per_symbol": 24.0,
+      "note": "Conservative mirror-pair phase trace aid; cancels common phase by conjugate product and vector combining."
+    },
+    {
+      "scheme": "second_order_pll",
+      "snr_db": -4.0,
+      "phase_rmse_rad": 0.3706652899762761,
+      "cycle_slip_probability": 0.0084,
+      "resource_units_per_symbol": 1.0,
+      "note": "Simple carrier PLL reference with static loop gains; vulnerable to weak-signal cycle slips."
+    },
+    {
+      "scheme": "phase_trace_aided_pll",
+      "snr_db": -4.0,
+      "phase_rmse_rad": 0.33119059783656263,
+      "cycle_slip_probability": 0.0014,
+      "resource_units_per_symbol": 17.0,
+      "note": "Simple PLL augmented by a confidence-weighted phase-trace discriminator; PoC only, not an optimized loop design."
+    },
+    {
+      "scheme": "differential_phase",
+      "snr_db": -4.0,
+      "phase_rmse_rad": 0.6031253242340394,
+      "cycle_slip_probability": 0.5061012202440488,
+      "resource_units_per_symbol": 2.0,
+      "note": "Noncoherent adjacent-symbol phase reference; avoids absolute phase lock but doubles independent noise."
+    },
+    {
+      "scheme": "phase_trace_fallback_rep3_top4",
+      "snr_db": -4.0,
+      "phase_rmse_rad": 0.5163339131872086,
+      "cycle_slip_probability": 0.1462,
+      "resource_units_per_symbol": 24.0,
+      "note": "Conservative mirror-pair phase trace aid; cancels common phase by conjugate product and vector combining."
+    },
+    {
+      "scheme": "second_order_pll",
+      "snr_db": -2.0,
+      "phase_rmse_rad": 0.30448445526872825,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 1.0,
+      "note": "Simple carrier PLL reference with static loop gains; vulnerable to weak-signal cycle slips."
+    },
+    {
+      "scheme": "phase_trace_aided_pll",
+      "snr_db": -2.0,
+      "phase_rmse_rad": 0.24776507491674646,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 17.0,
+      "note": "Simple PLL augmented by a confidence-weighted phase-trace discriminator; PoC only, not an optimized loop design."
+    },
+    {
+      "scheme": "differential_phase",
+      "snr_db": -2.0,
+      "phase_rmse_rad": 0.5983922599338984,
+      "cycle_slip_probability": 0.43248649729945987,
+      "resource_units_per_symbol": 2.0,
+      "note": "Noncoherent adjacent-symbol phase reference; avoids absolute phase lock but doubles independent noise."
+    },
+    {
+      "scheme": "phase_trace_fallback_rep3_top4",
+      "snr_db": -2.0,
+      "phase_rmse_rad": 0.4468914677828159,
+      "cycle_slip_probability": 0.0406,
+      "resource_units_per_symbol": 24.0,
+      "note": "Conservative mirror-pair phase trace aid; cancels common phase by conjugate product and vector combining."
+    },
+    {
+      "scheme": "second_order_pll",
+      "snr_db": 0.0,
+      "phase_rmse_rad": 0.2385918780022131,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 1.0,
+      "note": "Simple carrier PLL reference with static loop gains; vulnerable to weak-signal cycle slips."
+    },
+    {
+      "scheme": "phase_trace_aided_pll",
+      "snr_db": 0.0,
+      "phase_rmse_rad": 0.21546350234640774,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 17.0,
+      "note": "Simple PLL augmented by a confidence-weighted phase-trace discriminator; PoC only, not an optimized loop design."
+    },
+    {
+      "scheme": "differential_phase",
+      "snr_db": 0.0,
+      "phase_rmse_rad": 0.5917416377899491,
+      "cycle_slip_probability": 0.32606521304260855,
+      "resource_units_per_symbol": 2.0,
+      "note": "Noncoherent adjacent-symbol phase reference; avoids absolute phase lock but doubles independent noise."
+    },
+    {
+      "scheme": "phase_trace_fallback_rep3_top4",
+      "snr_db": 0.0,
+      "phase_rmse_rad": 0.324788647195919,
+      "cycle_slip_probability": 0.0022,
+      "resource_units_per_symbol": 24.0,
+      "note": "Conservative mirror-pair phase trace aid; cancels common phase by conjugate product and vector combining."
+    },
+    {
+      "scheme": "second_order_pll",
+      "snr_db": 2.0,
+      "phase_rmse_rad": 0.19599013109326727,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 1.0,
+      "note": "Simple carrier PLL reference with static loop gains; vulnerable to weak-signal cycle slips."
+    },
+    {
+      "scheme": "phase_trace_aided_pll",
+      "snr_db": 2.0,
+      "phase_rmse_rad": 0.1579294437225537,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 17.0,
+      "note": "Simple PLL augmented by a confidence-weighted phase-trace discriminator; PoC only, not an optimized loop design."
+    },
+    {
+      "scheme": "differential_phase",
+      "snr_db": 2.0,
+      "phase_rmse_rad": 0.5623812314777694,
+      "cycle_slip_probability": 0.23084616923384677,
+      "resource_units_per_symbol": 2.0,
+      "note": "Noncoherent adjacent-symbol phase reference; avoids absolute phase lock but doubles independent noise."
+    },
+    {
+      "scheme": "phase_trace_fallback_rep3_top4",
+      "snr_db": 2.0,
+      "phase_rmse_rad": 0.26281419281853363,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 24.0,
+      "note": "Conservative mirror-pair phase trace aid; cancels common phase by conjugate product and vector combining."
+    },
+    {
+      "scheme": "second_order_pll",
+      "snr_db": 4.0,
+      "phase_rmse_rad": 0.15558534060857127,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 1.0,
+      "note": "Simple carrier PLL reference with static loop gains; vulnerable to weak-signal cycle slips."
+    },
+    {
+      "scheme": "phase_trace_aided_pll",
+      "snr_db": 4.0,
+      "phase_rmse_rad": 0.13583451053344056,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 17.0,
+      "note": "Simple PLL augmented by a confidence-weighted phase-trace discriminator; PoC only, not an optimized loop design."
+    },
+    {
+      "scheme": "differential_phase",
+      "snr_db": 4.0,
+      "phase_rmse_rad": 0.519312596978175,
+      "cycle_slip_probability": 0.1220244048809762,
+      "resource_units_per_symbol": 2.0,
+      "note": "Noncoherent adjacent-symbol phase reference; avoids absolute phase lock but doubles independent noise."
+    },
+    {
+      "scheme": "phase_trace_fallback_rep3_top4",
+      "snr_db": 4.0,
+      "phase_rmse_rad": 0.20577608390138427,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 24.0,
+      "note": "Conservative mirror-pair phase trace aid; cancels common phase by conjugate product and vector combining."
+    },
+    {
+      "scheme": "second_order_pll",
+      "snr_db": 6.0,
+      "phase_rmse_rad": 0.11794797638703139,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 1.0,
+      "note": "Simple carrier PLL reference with static loop gains; vulnerable to weak-signal cycle slips."
+    },
+    {
+      "scheme": "phase_trace_aided_pll",
+      "snr_db": 6.0,
+      "phase_rmse_rad": 0.11675715606479652,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 17.0,
+      "note": "Simple PLL augmented by a confidence-weighted phase-trace discriminator; PoC only, not an optimized loop design."
+    },
+    {
+      "scheme": "differential_phase",
+      "snr_db": 6.0,
+      "phase_rmse_rad": 0.46236947056597205,
+      "cycle_slip_probability": 0.04620924184836967,
+      "resource_units_per_symbol": 2.0,
+      "note": "Noncoherent adjacent-symbol phase reference; avoids absolute phase lock but doubles independent noise."
+    },
+    {
+      "scheme": "phase_trace_fallback_rep3_top4",
+      "snr_db": 6.0,
+      "phase_rmse_rad": 0.16221958342132786,
+      "cycle_slip_probability": 0.0,
+      "resource_units_per_symbol": 24.0,
+      "note": "Conservative mirror-pair phase trace aid; cancels common phase by conjugate product and vector combining."
+    }
+  ]
+}
