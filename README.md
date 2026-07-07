@@ -81,7 +81,7 @@ A plotted BER floor or a table value of `0.000000` means **zero observed errors 
 
 `outputs/resource_efficiency_comparison.png`
 
-This figure shows useful bits per channel use.  It is essential because the mirror phase trace fallback spends more channel resources per information bit.  The intended argument is not “always faster”; it is “more robust as a fallback path when the normal path is unreliable.”
+This figure shows effective useful bits per channel use after penalizing the metric by the observed BER.  It is essential because the mirror phase trace fallback spends more channel resources per information bit, and the practical value of that extra resource use depends on whether the method actually improves reliability.  The intended argument is not “always faster”; it is “more robust as a fallback path when the normal path is unreliable.”
 
 ### Multi-axis tradeoff dashboard
 
@@ -110,7 +110,7 @@ Important caveat: this is still a compact PoC.  `second_order_pll` is a simple s
 
 ## Resource Setting Sensitivity
 
-The mirror trace method has an explicit reliability/resource dial.  The script now plots three mirror-trace settings:
+The mirror trace method has an explicit reliability/resource dial.  The script now plots three mirror-trace settings and the resource-efficiency figure uses a reliability-adjusted metric so the tradeoff is easier to interpret:
 
 | Scheme | Pairs | Repetitions | Channel uses / bit | Interpretation |
 |---|---:|---:|---:|---|
