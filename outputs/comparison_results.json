@@ -1,0 +1,476 @@
+{
+  "metadata": {
+    "bits": 30000,
+    "seed": 20260706,
+    "ebn0_db": [
+      -20.0,
+      -16.0,
+      -12.0,
+      -10.0,
+      -8.0,
+      -6.0,
+      -4.0,
+      -2.0,
+      0.0,
+      2.0,
+      4.0,
+      6.0,
+      8.0,
+      10.0,
+      12.0
+    ],
+    "important_note": "Proof-of-concept comparison, not a standard-compliant PHY simulator."
+  },
+  "results": [
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": -20.0,
+      "bit_errors": 13340,
+      "bit_count": 30000,
+      "ber": 0.44466666666666665,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": -20.0,
+      "bit_errors": 14856,
+      "bit_count": 29999,
+      "ber": 0.49521650721690724,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": -20.0,
+      "bit_errors": 12581,
+      "bit_count": 30000,
+      "ber": 0.41936666666666667,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": -16.0,
+      "bit_errors": 12338,
+      "bit_count": 30000,
+      "ber": 0.41126666666666667,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": -16.0,
+      "bit_errors": 14995,
+      "bit_count": 29999,
+      "ber": 0.49984999499983335,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": -16.0,
+      "bit_errors": 11007,
+      "bit_count": 30000,
+      "ber": 0.3669,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": -12.0,
+      "bit_errors": 10811,
+      "bit_count": 30000,
+      "ber": 0.36036666666666667,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": -12.0,
+      "bit_errors": 15034,
+      "bit_count": 29999,
+      "ber": 0.5011500383346111,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": -12.0,
+      "bit_errors": 8952,
+      "bit_count": 30000,
+      "ber": 0.2984,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": -10.0,
+      "bit_errors": 9723,
+      "bit_count": 30000,
+      "ber": 0.3241,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": -10.0,
+      "bit_errors": 14968,
+      "bit_count": 29999,
+      "ber": 0.4989499649988333,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": -10.0,
+      "bit_errors": 7592,
+      "bit_count": 30000,
+      "ber": 0.25306666666666666,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": -8.0,
+      "bit_errors": 8701,
+      "bit_count": 30000,
+      "ber": 0.2900333333333333,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": -8.0,
+      "bit_errors": 15003,
+      "bit_count": 29999,
+      "ber": 0.5001166705556852,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": -8.0,
+      "bit_errors": 5982,
+      "bit_count": 30000,
+      "ber": 0.1994,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": -6.0,
+      "bit_errors": 7186,
+      "bit_count": 30000,
+      "ber": 0.23953333333333332,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": -6.0,
+      "bit_errors": 14970,
+      "bit_count": 29999,
+      "ber": 0.49901663388779627,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": -6.0,
+      "bit_errors": 4296,
+      "bit_count": 30000,
+      "ber": 0.1432,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": -4.0,
+      "bit_errors": 5614,
+      "bit_count": 30000,
+      "ber": 0.18713333333333335,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": -4.0,
+      "bit_errors": 15031,
+      "bit_count": 29999,
+      "ber": 0.5010500350011667,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": -4.0,
+      "bit_errors": 2798,
+      "bit_count": 30000,
+      "ber": 0.09326666666666666,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": -2.0,
+      "bit_errors": 3922,
+      "bit_count": 30000,
+      "ber": 0.13073333333333334,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": -2.0,
+      "bit_errors": 15063,
+      "bit_count": 29999,
+      "ber": 0.5021167372245742,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": -2.0,
+      "bit_errors": 1423,
+      "bit_count": 30000,
+      "ber": 0.047433333333333334,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": 0.0,
+      "bit_errors": 2386,
+      "bit_count": 30000,
+      "ber": 0.07953333333333333,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": 0.0,
+      "bit_errors": 15095,
+      "bit_count": 29999,
+      "ber": 0.5031834394479816,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": 0.0,
+      "bit_errors": 510,
+      "bit_count": 30000,
+      "ber": 0.017,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": 2.0,
+      "bit_errors": 1123,
+      "bit_count": 30000,
+      "ber": 0.03743333333333333,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": 2.0,
+      "bit_errors": 14998,
+      "bit_count": 29999,
+      "ber": 0.4999499983332778,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": 2.0,
+      "bit_errors": 118,
+      "bit_count": 30000,
+      "ber": 0.003933333333333333,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": 4.0,
+      "bit_errors": 397,
+      "bit_count": 30000,
+      "ber": 0.013233333333333333,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": 4.0,
+      "bit_errors": 15113,
+      "bit_count": 29999,
+      "ber": 0.5037834594486483,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": 4.0,
+      "bit_errors": 18,
+      "bit_count": 30000,
+      "ber": 0.0006,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": 6.0,
+      "bit_errors": 60,
+      "bit_count": 30000,
+      "ber": 0.002,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": 6.0,
+      "bit_errors": 14985,
+      "bit_count": 29999,
+      "ber": 0.4995166505550185,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": 6.0,
+      "bit_errors": 0,
+      "bit_count": 30000,
+      "ber": 0.0,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": 8.0,
+      "bit_errors": 3,
+      "bit_count": 30000,
+      "ber": 0.0001,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": 8.0,
+      "bit_errors": 14976,
+      "bit_count": 29999,
+      "ber": 0.4992166405546852,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": 8.0,
+      "bit_errors": 0,
+      "bit_count": 30000,
+      "ber": 0.0,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": 10.0,
+      "bit_errors": 0,
+      "bit_count": 30000,
+      "ber": 0.0,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": 10.0,
+      "bit_errors": 14972,
+      "bit_count": 29999,
+      "ber": 0.4990833027767592,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": 10.0,
+      "bit_errors": 0,
+      "bit_count": 30000,
+      "ber": 0.0,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    },
+    {
+      "scheme": "ideal_coherent_bpsk",
+      "ebn0_db": 12.0,
+      "bit_errors": 0,
+      "bit_count": 30000,
+      "ber": 0.0,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Ideal coherent reference with perfect phase knowledge."
+    },
+    {
+      "scheme": "differential_bpsk",
+      "ebn0_db": 12.0,
+      "bit_errors": 15146,
+      "bit_count": 29999,
+      "ber": 0.5048834961165373,
+      "channel_uses_per_bit": 1.0,
+      "useful_bits_per_channel_use": 1.0,
+      "note": "Noncoherent differential reference that avoids absolute phase tracking."
+    },
+    {
+      "scheme": "repetition3_bpsk_majority",
+      "ebn0_db": 12.0,
+      "bit_errors": 0,
+      "bit_count": 30000,
+      "ber": 0.0,
+      "channel_uses_per_bit": 3.0,
+      "useful_bits_per_channel_use": 0.3333333333333333,
+      "note": "Simple repetition and majority-vote robustness baseline."
+    }
+  ]
+}

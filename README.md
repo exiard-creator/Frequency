@@ -7,7 +7,7 @@ The package is intentionally conservative.  It does **not** claim to replace a c
 ## Files
 
 ```text
-Frequency/Github/
+Frequency/
 ├── README.md
 ├── requirements.txt
 ├── src/
@@ -35,15 +35,15 @@ Frequency/Github/
 Run from the workspace root:
 
 ```bash
-python Frequency/Github/src/known_tech_comparison.py
-python Frequency/Github/src/comm_pll_cycle_slip_comparison.py
-python Frequency/Github/src/gps_phase_tracking_comparison.py
+python Frequency/src/known_tech_comparison.py
+python Frequency/src/comm_pll_cycle_slip_comparison.py
+python Frequency/src/gps_phase_tracking_comparison.py
 ```
 
 The script writes all outputs into:
 
 ```text
-Frequency/Github/outputs/
+Frequency/outputs/
 ```
 
 ## What Is Compared
@@ -179,7 +179,7 @@ Out-of-scope items include satellite orbit errors, ionospheric/tropospheric dela
 Run:
 
 ```bash
-python Frequency/Github/src/gps_phase_tracking_comparison.py
+python Frequency/src/gps_phase_tracking_comparison.py
 ```
 
 Generated figures:
